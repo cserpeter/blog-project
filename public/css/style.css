@@ -176,6 +176,24 @@ img {
   text-decoration: underline;
 }
 
+/* About page */
+.about-title {
+  text-align: center;
+}
+
+.about-subtitle {
+  text-align: justify;
+}
+.about-list li {
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.about-list p {
+  font-size: 20px;
+  text-align: justify;
+}
+
 /* Author - HomePage */
 .author {
   padding: 10px 0;
@@ -326,6 +344,9 @@ img {
   right: 0;
   color: var(--gray-light);
   padding: 15px;
+}
+#searchClose:hover {
+  cursor: pointer;
 }
 
 .pagination {
